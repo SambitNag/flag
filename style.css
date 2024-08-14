@@ -4,12 +4,12 @@
 }
 .box{
  position:relative;
- box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0.19);  
+ box-shadow: 0 6px 20px 0 rgba(247, 244, 244, 0.893),0 6px 20px 0 rgb(244, 244, 244);  
  height: 400px; 
  width: 400px;
  background-image: linear-gradient(to bottom right, darkorange,white,darkgreen);
  left: 35%;
- top: 80px;
+ top: 85px;
 }
 .box img{
     
@@ -19,6 +19,6 @@
     border-radius: 130px;
     margin: 100px;
     transform: rotate(1000deg);
-    transition: transform 20s ;
+    transition: transform 15s ;
     animation-timing-function: ease-in-out;
 }

@@ -1,3 +1,16 @@
+#box{
+    background-color: darkorange;
+    color: rgb(239, 249, 244);
+}
+#boox{
+    background-color: rgb(221, 228, 218);
+    color: rgb(12, 55, 244);
+}
+#booox{
+    background-color: rgb(66, 231, 10);
+    color: rgb(239, 249, 244);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -28,4 +41,26 @@ body{
     0 0 50px darkorange,
     0 0 100px darkorange;
     animation: animate 15s linear infinite;
+    animation-duration: calc(100s /var(--i));
 }
+.bubbles span:nth-child(even){
+    background: rgb(0, 100, 0);
+    box-shadow: 0 0 0 10px rgb(88, 227, 88),
+    0 0 50px rgb(88, 227, 88),
+    0 0 100px rgb(88, 227, 88);
+}
+/* .bubbles span:nth-child(odd){
+    background: rgb(0, 100, 0);
+    box-shadow: 0 0 0 10px rgb(88, 227, 88),
+    0 0 50px rgb(88, 227, 88),
+    0 0 100px rgb(88, 227, 88);
+} */
+ @keyframes animate
+{
+    0%{
+        transform: translateY(100vh) scale(0);
+    }
+    1000%{
+        transform: translateY(100vh) scale(0);
+    }
+} 
