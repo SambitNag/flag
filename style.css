@@ -19,6 +19,6 @@
     border-radius: 130px;
     margin: 100px;
     transform: rotate(1000deg);
-    transition: transform 15s ;
+    transition: transform 20s ;
     animation-timing-function: ease-in-out;
 }

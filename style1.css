@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: #0c192c;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.bubbles{
+    position:relative;
+    display: flex;
+}
+.bubbles span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: darkorange;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #9b7212cc,
+    0 0 50px darkorange,
+    0 0 100px darkorange;
+    animation: animate 15s linear infinite;
+}

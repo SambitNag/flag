@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(28, 44, 219);
+}
+#box{
+    background-color: burlywood;
+    color: rgb(2, 23, 13);
+}
+*{
+    color:rgb(236, 240, 242)
+}
