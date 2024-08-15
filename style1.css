@@ -1,14 +1,17 @@
 #box{
     background-color: darkorange;
     color: rgb(239, 249, 244);
+    text-align: center;
 }
 #boox{
     background-color: rgb(221, 228, 218);
     color: rgb(12, 55, 244);
+    text-align: center;
 }
 #booox{
     background-color: rgb(66, 231, 10);
     color: rgb(239, 249, 244);
+    text-align: center;
 }
 
 *{
